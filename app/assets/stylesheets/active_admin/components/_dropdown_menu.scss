@@ -2,10 +2,10 @@
   display: inline;
 
   .dropdown_menu_button {
-    @include light-button;
     position: relative;
     padding-right: 22px !important;
     cursor: pointer;
+    @include light-button;
 
     &:before {
       content: ' ';
@@ -139,11 +139,11 @@
         }
 
         &:last-child {
+          border: none;
           a {
             border-bottom-left-radius: 2px;
             border-bottom-right-radius: 2px;
           }
-          border: none;
         }
       }
     }
